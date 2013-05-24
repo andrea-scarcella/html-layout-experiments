@@ -1,0 +1,42 @@
+﻿
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%; /* needed for container min-height */
+}
+div.wrapper
+{
+    width: 100%;
+    height: 95%;
+    min-height: 95%;
+}
+div.left
+{
+    width: 58%;
+    margin: 1%;
+    min-height: 95%;
+    float: left;
+    background-color: Red;
+}
+div.right
+{
+    width: 38%;
+    margin: 1%;
+    height: 95%;
+    min-height: 95%;
+    float: right;
+    background-color: Blue;
+}
+div.upper-right
+{
+    margin: 5%;
+    min-height: 45%;
+    background-color: Green;
+}
+div.lower-right
+{
+    margin: 5%;
+    min-height: 45%;
+    background-color: Aqua;
+}
