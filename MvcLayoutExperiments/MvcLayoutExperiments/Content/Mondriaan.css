@@ -8,35 +8,55 @@ html, body
 div.wrapper
 {
     width: 100%;
-    height: 95%;
-    min-height: 95%;
+    height: 100%;
+    min-height: 100%;
+    background-color: Gray;
 }
 div.left
 {
-    width: 58%;
-    margin: 1%;
-    min-height: 95%;
+    width: 70%;
+    min-height: 100%;
     float: left;
     background-color: Red;
 }
 div.right
 {
-    width: 38%;
-    margin: 1%;
-    height: 95%;
-    min-height: 95%;
-    float: right;
-    background-color: Blue;
+    width: 30%;
+    height: 100%;
+    min-height: 100%;
+    float: left;
+    background-color: blue;
 }
+
 div.upper-right
 {
-    margin: 5%;
-    min-height: 45%;
+    width: 30%;
+    height: 50%;
+    min-height: 50%;
+    float: left;
     background-color: Green;
 }
 div.lower-right
 {
-    margin: 5%;
-    min-height: 45%;
+    width: 30%;
+    height: 50%;
+    min-height: 50%;
+    float: left;
+    background-color: Aqua;
+}
+
+div.footer
+{
+    width: 100%;
+    min-height: 4%;
+    margin: 1%;
+}
+.square
+{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 100px;
+    height: 100px;
+   
     background-color: Aqua;
 }
